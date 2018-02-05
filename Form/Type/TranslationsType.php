@@ -55,6 +55,7 @@ class TranslationsType extends AbstractType
     {
         $view->vars['default_locale'] = $options['default_locale'];
         $view->vars['required_locales'] = $options['required_locales'];
+        $view->vars['locales'] = $options['locales'];
     }
 
     /**
